@@ -1,0 +1,23 @@
+// loaders
+export const LOGIN_ENABLE_LOADER = 'LOGIN_ENABLE_LOADER';
+export const LOGIN_DISABLE_LOADER = 'LOGIN_DISABLE_LOADER';
+
+// theming
+export const TOGGLE_THEME = 'TOGGLE_THEME';
+
+//admin login
+export const LOGIN_REQUEST = 'LOGIN_REQUEST';
+export const LOGIN_RESPONSE = 'LOGIN_RESPONSE';
+export const LOGIN_LOADING_ENDED = 'LOGIN_LOADING_ENDED';
+export const LOGIN_FAILED = 'LOGIN_FAILED';
+export const LOG_OUT = 'LOG_OUT';
+
+
+// users
+export const FETCH_USERS= 'FETCH_USERS'
+export const FETCH_USER_FAILED='FETCH_USER_FAILED'
+export const FETCH_USERS_DETAILS='FETCH_USERS_DETAILS'
+export const DELETE_USER='DELETE_USER'
+export const ADD_USER="ADD_USER"
+export const CLEAR_USER_DETAILS='CLEAR_USER_DETAILS'
+export const UPDATE_USER='UPDATE_USER'
